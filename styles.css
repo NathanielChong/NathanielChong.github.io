@@ -1,7 +1,18 @@
 body {
 	background-image: url("flowers.jpeg");
 	font-family: "Poppins", sans-serif;
-	color: #2E8B57 !important;
+	color: #2E8B57 !important; /*text color, over rides other colors in this css file */
 	background-color: #cccccc;
 }
-
+.button {
+    background-color: #4CAF50; /*green*/
+    border: none;
+    color: white; 
+    padding: 15px 30px; /*Padding is around button ins square, width, height in pixels */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 4px 2px; /*Margin around other elements, in pixels*/
+    cursor: pointer; /*Regular mouse pointer */
+ }
