@@ -1,8 +1,8 @@
 body {
-	background-image: url("flowers.jpeg");
+	background-image: url("tetris.gif");
+    background-size: cover; /*Background image sized to cover whole screen */
 	font-family: "Poppins", sans-serif;
 	color: #2E8B57 !important; /*text color, over rides other colors in this css file */
-	background-color: #cccccc;
 }
 .button {
     background-color: #4CAF50; /*green*/
