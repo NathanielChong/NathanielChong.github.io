@@ -1,5 +1,6 @@
 body {
 	background-image: url("flowers.jpeg");
+    background-size:     cover;
     /*background-size: cover; /*Background image sized to cover whole screen */
 	font-family: "Poppins", sans-serif;
 	color: #2E8B57 !important; /*text color, over rides other colors in this css file */
