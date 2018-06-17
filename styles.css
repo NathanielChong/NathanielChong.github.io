@@ -1,5 +1,5 @@
 body {
-	background-image: url("flowers.jpeg");
+	background-image: url("./virginia.gif"); /*Credit for the gif to gipy.com*/
     background-size:     cover;
     /*background-size: cover; /*Background image sized to cover whole screen */
 	font-family: "Poppins", sans-serif;
@@ -17,3 +17,7 @@ body {
     margin: 4px 2px; /*Margin around other elements, in pixels*/
     cursor: pointer; /*Regular mouse pointer */
  }
+ img {
+    border-radius: 50%; /*Circular iamge */
+}
+
