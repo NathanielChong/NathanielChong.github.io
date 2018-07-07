@@ -7,10 +7,10 @@ html {
     background-size: cover;
     /*background-size: cover; /*Background image sized to cover whole screen */
 	font-family: "Poppins", sans-serif;
-	color: #2E8B57 !important; /*text color, over rides other colors in this css file */
+	color: #66BB6A !important; /*text color, over rides other colors in this css file */
 }
 .button {
-    background-color: #4CAF50; /*green*/
+    background-color: #66BB6A; /*green*/
     border: none;
     color: white; 
     padding: 15px 30px; /*Padding is around button ins square, width, height in pixels */
@@ -25,3 +25,10 @@ html {
     border-radius: 50%; /*Circular iamge */
 }
 
+a:link {
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
