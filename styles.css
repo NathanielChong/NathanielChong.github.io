@@ -1,6 +1,10 @@
-body {
-	background-image: url("./virginia.gif"); /*Credit for the gif to https://www.pinterest.com.au/pin/319826011018794809/*/
-    background-size:     cover;
+html {
+	background: url("./virginia.gif") no-repeat center center fixed;
+     /*Credit for the gif to https://www.pinterest.com.au/pin/319826011018794809/*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     /*background-size: cover; /*Background image sized to cover whole screen */
 	font-family: "Poppins", sans-serif;
 	color: #2E8B57 !important; /*text color, over rides other colors in this css file */
