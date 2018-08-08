@@ -12,6 +12,7 @@ html {
 .button {
     background-color: #2E4053; /*green*/
     border: none;
+    border-radius: 12px;
     color: white !important; 
     padding: 15px 30px; /*Padding is around button ins square, width, height in pixels */
     text-align: center;
@@ -20,7 +21,13 @@ html {
     font-size: 20px; 
     margin: 4px 2px; /*Margin around other elements, in pixels*/
     cursor: pointer; /*Regular mouse pointer */
+    
  }
+
+ .button:hover {
+    background-color: #2E86C1;
+    color: white;
+}
  img {
     border-radius: 50%; /*Circular iamge */
 }
