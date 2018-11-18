@@ -8,6 +8,11 @@ html {
     /*background-size: cover; /*Background image sized to cover whole screen */
 	font-family: "Poppins", sans-serif;
 	color: #2E4053 !important; /*text color, over rides other colors in this css file */
+    text-shadow:
+        0.03em 0 #2E4053,
+        0 0.03em #2E4053,
+        -0.03em 0 #2E4053,
+        0 -0.03em #2E4053;
 }
 .button {
     background-color: #2E4053; /*green*/
