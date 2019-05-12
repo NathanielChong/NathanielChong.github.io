@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+
+	<head>
+		<title>??????</title>
+		<link rel="stylesheet" href="../CSS/styles.css">
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+        <center>
+		<h1>Do you have a key?</h1>
+		<form>
+        <h3><label for="pswd"></label></h3>
+        <input type="password" id="pswd">
+        <input type="button" value="Knock" onclick="checkPswd();" />
+        </form>
+        <!--Function to check password the already set password is admin-->
+        <script type="text/javascript">
+            function checkPswd() {
+            var key = " isol4ted247!";
+            var guess = document.getElementById("pswd").value;
+            if (guess == key) {
+                 window.location="secret.html";
+            }
+            else{
+                alert("scriptilence");
+            }
+            }
+        </script>
+        </center>
+		
+	</body>
+
+</html>
