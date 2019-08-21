@@ -3,46 +3,53 @@
 
 	<head>
 		<title> Nathan Chong </title>
-		<link rel="stylesheet" href="./CSS/styles.css">
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/png" href="./Images/favicon.png"/> <!-- favicon-->
-	</head>
+		<!--bootstrap-->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+			<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<!-- Custom CSS-->
+<link rel="stylesheet" href="./CSS/styles.css">
+	</head>
   	 <body>
        <center> 
-       	  <h1>Nathan Chong</h1> 
-      		<img src="./Images/iconic.png" height="250" width="250">
-      		<h1>Hi! I'm Nathan. Right now I'm in: <a href="https://www.virginia.gov/" target="_blank">Virginia</a></h1>  
+       	<h1 class="display-3">Nathan Chong</h1>
+        <div id="	" class="btn-group"> <!-- links division-->
+          	<nav id="navBar"> <!-- navbar site navigation -->
+          	<div class="row">
+          	<!-- Below links are buttons from the class in styles.css -->
+        	  	<div class="col"><a href="./index.html" class="btn btn-primary btn-lg" role="button"> Home </a></div>
+			      	<div class="col"><a href="./Files/Resume1.pdf" target="_blank" class="btn btn-primary btn-lg" role="button"> Resume </a></div>
+			    	  <div class="col"><a href="./HTML/projects.html" class="btn btn-primary btn-lg" role="button">Research/Projects</a></div>
+			      	<div class="col"><a href="https://github.com/NathanielChong" target="_blank" class="btn btn-primary btn-lg" role="button">GitHub </a></div>
+			      	<div class="col"><a href="./HTML/contactme.html" class="btn btn-primary btn-lg" role="button"> Contact</a></div>
 
-    
-        <div id="links"> <!-- links division-->
-
-          <nav id="navBar"> <!-- navbar site navigation -->
-          <!-- Below links are buttons from the class in styles.css -->
-        	  <a href="./index.html" class="button"> Home </a>
-			      <a href="./HTML/aboutme.html" class="button"> About Me </a>
-			      <a href="./Files/Resume1.pdf" target="_blank" class="button"> Resume </a>
-			      <a href="./HTML/projects.html" class="button">Projects/Research</a>
-			      <a href="https://github.com/NathanielChong" target="_blank" class="button">GitHub </a> 
-			      <a href="./HTML/contactme.html" class="button"> Contact Me/Report Bugs</a>
-			     </nav>
+			     	</nav>
+			     </div>
 
 		     </div>
-		   <h2> I'm a freshman at <a href="https://www.eecs.umich.edu/" target="_blank">The University of Michigan - Ann Arbor</a>. Learn more <a href="./HTML/aboutme.html">about me</a>, view my <a href="./Files/Resume?.pdf" target="_blank"> resume</a>, or say hello at <a href="mailto:1natechong@gmail.com">1natechong@gmail.com </a>.</h2>
 
-		   <a href="./HTML/door.html" target="_blank" class="bottomRight"> <img src="./Images/key.png" border="0" alt=" " width="6" height="6"> </a>
+		   
+		     </center>
 
-	     </center>
+		   <div id="info" class="jumbotron container bg-white text-justify" style="margin-top:0.5%">
+		   <img src="./Images/iconic.png" height="250" width="250" class="rounded-circle float-right" alt="Me!" style="margin-left:2%">
+		   <h2 style="margin-top:-3%"> I'm a freshman at <a href="https://www.eecs.umich.edu/" target="_blank">The University of Michigan - Ann Arbor</a>. View my <a href="./HTML/projects.html"> past work and research,</a> <a href="./Files/Resume?.pdf" target="_blank"> resume</a>, or say hello at <a href="mailto:nychong@umich.edu">nychong@umich.edu</a>.</h2>
+		  
+			 <h2 style="margin-top:2%; margin-bottom:-3%">I am extremely interested in computer science and electrical engineering. Specifically, I am fascinated with machine learning, signal processing, and robotics. I am eager to tinker with web and mobile development in the near future.</h2>
+			 </div>
 
-		<h4>*This website was personally written and is still under construction, excuse the aesthetics.  </h4>
 
-	<style>
-	.bottomRight {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 18px;
-	}
-	</style>
   	 </body>
 </html> 
