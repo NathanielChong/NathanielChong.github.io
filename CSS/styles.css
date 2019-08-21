@@ -1,6 +1,14 @@
 html {
-   
 	font-family: "Poppins", sans-serif;
+}
+
+body{
+		background: url('../Images/flowers.jpeg') no-repeat center center fixed;
+     /*Credit for the gif to https://www.pinterest.com.au/pin/319826011018794809/*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
