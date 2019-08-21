@@ -1,49 +1,11 @@
 html {
-    
-	/*background: url("../Images/lightmountain.gif") no-repeat center center fixed;*/
-     /*Credit for the gif to https://www.pinterest.com.au/pin/319826011018794809/*/
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    */
-    
-    /*background-size: cover; /*Background image sized to cover whole screen */
+   
 	font-family: "Poppins", sans-serif;
-	color: #2E4053 !important; /*text color, over rides other colors in this css file */
-    text-shadow:
-        0.02em 0 gray,
-        0 0.02em gray,
-        -0.02em 0 gray,
-        0 -0.02em gray;
 }
-.button {
-    background-color: #2E4053; /*green*/
-    border: none;
-    border-radius: 12px;
-    color: white !important; 
-    padding: 15px 30px; /*Padding is around button ins square, width, height in pixels */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block; 
-    font-size: 20px; 
-    margin: 4px 2px; /*Margin around other elements, in pixels*/
-    cursor: pointer; /*Regular mouse pointer */
-    
- }
+
 
  .button:hover {
-    background-color: #2E86C1;
     color: white;
 }
- img {
-    border-radius: 50%; /*Circular iamge */
-}
 
-a:link {
-    color:#2E4053;
-}
 
-a:visited {
-    color:#2E4053;
-}
