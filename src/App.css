@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color:black
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.portrait{
+  margin-top: 8%;
+  flex-wrap: wrap;
+  width: 15%;
+  height: 15%;
+  max-width:20%;
+  max-height:20%;
+}
+
+.NavItem{
+  margin-top:.3%;
+  font-size:23px;
+
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jumbotron{
+  background-color: #282c34;
+  max-width:80%;
+  color:black;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h4, h5, h6 {
+  margin: 0.3rem auto;
+}
+
+img {
+ margin: 0;
+} 
