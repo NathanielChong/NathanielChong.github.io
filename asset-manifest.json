@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nathanielchong.github.io/static/css/main.f935cafd.chunk.css",
+    "main.js": "/nathanielchong.github.io/static/js/main.aa5506b1.chunk.js",
+    "main.js.map": "/nathanielchong.github.io/static/js/main.aa5506b1.chunk.js.map",
+    "runtime-main.js": "/nathanielchong.github.io/static/js/runtime-main.f32b4d85.js",
+    "runtime-main.js.map": "/nathanielchong.github.io/static/js/runtime-main.f32b4d85.js.map",
+    "static/js/2.09340a3e.chunk.js": "/nathanielchong.github.io/static/js/2.09340a3e.chunk.js",
+    "static/js/2.09340a3e.chunk.js.map": "/nathanielchong.github.io/static/js/2.09340a3e.chunk.js.map",
+    "index.html": "/nathanielchong.github.io/index.html",
+    "precache-manifest.b0cbad81de66244e1f9b150605b4b02b.js": "/nathanielchong.github.io/precache-manifest.b0cbad81de66244e1f9b150605b4b02b.js",
+    "service-worker.js": "/nathanielchong.github.io/service-worker.js",
+    "static/css/main.f935cafd.chunk.css.map": "/nathanielchong.github.io/static/css/main.f935cafd.chunk.css.map",
+    "static/js/2.09340a3e.chunk.js.LICENSE.txt": "/nathanielchong.github.io/static/js/2.09340a3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f32b4d85.js",
+    "static/js/2.09340a3e.chunk.js",
+    "static/css/main.f935cafd.chunk.css",
+    "static/js/main.aa5506b1.chunk.js"
+  ]
+}

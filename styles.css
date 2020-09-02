@@ -1,0 +1,19 @@
+html {
+	font-family: "Poppins", sans-serif;
+	color:white;
+}
+
+body{
+	background: url('./images/greenminimal.png') no-repeat center center fixed;
+     /*Credit for the gif to https://www.pinterest.com.au/pin/319826011018794809/*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+ .button:hover {
+    color: white;
+}
+
