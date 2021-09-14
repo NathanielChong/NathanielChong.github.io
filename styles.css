@@ -12,8 +12,14 @@ body{
     background-size: cover;
 }
 
+.nonMidIcon{
+   margin-left: 15px;
+}
 
  .button:hover {
     color: white;
 }
 
+.fa{
+   color:  black;
+}
