@@ -9,7 +9,7 @@ function RedirectionBar() {
           <Container>
        		<Nav.Link href="./index.html" style={{ color: 'black' }} className="NavItem"> Home </Nav.Link>
        		<Nav.Link href="./NathanielChongResume.pdf" style={{ color: 'black' }} className="NavItem"> Resume </Nav.Link> 
-       		<Nav.Link href="./projects.html" style={{ color: 'black' }} className="NavItem"> Research/Projects </Nav.Link>
+       		<Nav.Link href="./projects.html" style={{ color: 'black' }} className="NavItem"> Projects/Research </Nav.Link>
        		<Nav.Link href="./contactme.html" style={{ color: 'black' }} className="NavItem"> Contact </Nav.Link>
         </Container>
        	</Navbar>
